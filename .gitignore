@@ -1,0 +1,27 @@
+phd-client/*lock.*
+
+# expo
+phd-client/.expo/
+
+# dependencies
+phd-client/node_modules
+
+# misc
+phd-client/.env.local
+phd-client/.env.development.local
+phd-client/.env.test.local
+phd-client/.env.production.local
+
+phd-client/npm-debug.log*
+phd-client/yarn-debug.log*
+phd-client/yarn-error.log*
+phd-client/src/config.js
+
+phd-client/.~*
+
+
+phd-server/*lock.*
+phd-server/node_modules
+phd-server/upload_files
+phd-server/coverage
+phd-server/.~*
